@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "88ffc381-dcbb-44d9-8c3d-f6d31e50750f",
+		"name": "API.Simple",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/thing",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 456\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/thing",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"thing"
+					]
+				},
+				"description": "POST a thing."
+			},
+			"response": []
+		}
+	]
+}
